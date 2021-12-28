@@ -39,7 +39,7 @@ func main() {
 		fmt.Printf("data:%v addr:%v count:%v\n", string(data[:n]), addr, n)
 
 		// 向客户端发送数据
-		_, err = listen.WriteToUDP(data[:n], addr) // 发送数据
+		_, err = listen.WriteToUDP(data[:n], addr)
 
 		// 发送数据失败
 		if err != nil {
