@@ -11,7 +11,7 @@ import (
 func main() {
 
 	// 与服务端建立连接
-	conn, err := net.Dial("tcp", "127.0.0.1:20001")
+	conn, err := net.Dial("tcp", "sunshen.net.cn:1248")
 
 	// 连接服务端失败
 	if err != nil {
